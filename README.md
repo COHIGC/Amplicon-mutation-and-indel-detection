@@ -15,7 +15,7 @@ Step-by-step analysis:
   
     i) java -Xmx16g Novo_align_small_fa_file /path/to/amplicon/sequence/folder/ SampleName_R12_001
     
-      Output 1: A folder named SampleName/ will be generated that includes unique amplicon sequence and its occurrence, and mutation and indel identified in each unique amplicon sequence.
+      #Output 1: A folder named SampleName/ will be generated that includes unique amplicon sequence and its occurrence, and mutation and indel identified in each unique amplicon sequence.
       Output 2: A text file named SampleName_R12_001_cutoff1_snp_indel_result.fa.
   
   
