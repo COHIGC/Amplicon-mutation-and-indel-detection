@@ -11,6 +11,7 @@ Step-by-step analysis:
 
 
   3. Tally unique amplicon sequence and its occurrence, and identify mutation and indel in each unique amplicon sequence by comparing it to the reference sequence.
+  
     i) java -Xmx16g Novo_align_small_fa_file /path/to/amplicon/sequence/folder/ SampleName_R12_001
     
       Output 1: A folder named SampleName/ will be generated that includes unique amplicon sequence and its occurrence, and mutation and indel identified in each unique amplicon sequence.
@@ -18,6 +19,7 @@ Step-by-step analysis:
   
   
   4. Reformat the output into a table.
+  
     i) perl remove_end_of_line.pl SampleName_R12_001_cutoff1_snp_indel_result.fa SampleName_R12_001_cutoff1_snp_indel_result.fa.out
     
       Reformatted SampleName_R12_001_cutoff1_snp_indel_result.fa to SampleName_R12_001_cutoff1_snp_indel_result.fa.out.
