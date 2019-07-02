@@ -6,6 +6,7 @@ Step-by-step analysis:
 
 
   2. Merge paired-end amplicon reads.
+  
     i) pear -f SampleName_R1_001.fastq -r SampleName_R2_001.fastq -o SampleName_R12_001.fastq
 
 
