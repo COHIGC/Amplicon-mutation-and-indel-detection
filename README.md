@@ -1,5 +1,6 @@
 Step-by-step analysis:
   1. Create an analysis folder, and copy pair-end amplicon reads and scripts to this folder.
+  
     Analysis folder: /path/to/amplicon/sequence/folder/
     Paired-end amplicon reads: SampleName_R1_001.fastq and SampleName_R2_001.fastq
     Scripts: ValueComparator.class, Novo_align_small_fa_file.class, remove_end_of_line, and alignment.csh
